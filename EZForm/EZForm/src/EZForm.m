@@ -228,7 +228,7 @@
 	}
 	
 	if (indexPath) {
-	    [(UITableView *)self.viewToAutoScroll scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionNone animated:YES];
+	    [(UITableView *)self.viewToAutoScroll scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
 	}
     }
     else if ([self.viewToAutoScroll isKindOfClass:[UIScrollView class]]) {
